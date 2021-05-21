@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P05DemoRiddle</string>
+    <string name="q1">Question 1
+        This word has the same
+    pronunciation even after
+    removing 4 letters from it.</string>
+    <string name="reveal">reveal</string>
+    <string name="q2">Question 2
+    How do you make 1
+    disappear?</string>
+</resources>
