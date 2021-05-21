@@ -25,9 +25,11 @@ import android.widget.TextView;
         btnRevealQ1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AnswerActivity1.class);
-                intent.putExtra("question", "Q1");
-                intent.putExtra("moduleName", "Android");
+//                Intent intent = new Intent(MainActivity.this, AnswerActivity1.class); // This is for the None Challenge.
+                Intent intent = new Intent(MainActivity.this, Challenge_AnswerActivity.class);
+                intent.putExtra("question", "Q1)");
+                intent.putExtra("answer", "Queue is the answer.");
+
                 startActivity(intent);
             }
         });
@@ -35,8 +37,9 @@ import android.widget.TextView;
         btnRevealQ2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(MainActivity.this, AnswerActivity2.class);
-                intent2.putExtra("question", "Q2");
+//                Intent intent2 = new Intent(MainActivity.this, AnswerActivity2.class);  // This is for the None Challenge.
+                Intent intent2 = new Intent(MainActivity.this, Challenge_AnswerActivity.class);
+                intent2.putExtra("question", "Q2)");
                 intent2.putExtra("answer", "is Gone.");
 
                 startActivity(intent2);
