@@ -18,8 +18,5 @@ public class Challenge_AnswerActivity extends AppCompatActivity {
         Intent intentAnswer = getIntent();
 
         tvAnswer.setText(intentAnswer.getStringExtra("question") + " " + intentAnswer.getStringExtra("answer"));
-//        if(intentAnswer.getStringExtra("question").equals("Q1")) {
-//
-//        }
     }
 }
